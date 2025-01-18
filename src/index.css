@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'haka';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(./assets/fonts/Hangyaku_font.ttf) format('truetype');
+  }
+
+  html {
+    font-family: 'haka', sans-serif; /* Set the haka font as the default */
+  }
+}
+.animate-marquee {
+  animation: marquee 10s linear infinite;
+  /* Adjust duration and timing function as needed */
+  white-space: nowrap;
+  /* Prevent text from wrapping */
+}
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+body {
+  overflow-y: scroll; /* Adds scroll functionality while hiding scrollbar */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
