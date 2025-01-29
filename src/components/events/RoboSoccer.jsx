@@ -103,7 +103,7 @@ const RoboSoccer = () => {
               Register
             </a>
             <a
-              href="https://drive.google.com/file/d/1m7l___j_9yzEmjdy0S61_NuHJU1_iN3a/view?usp=sharing"
+              href="https://drive.google.com/file/d/1XjLhLERqcXYuDFOcKrgrZsgF3NUp95iT/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-transparent text-[#00df9a] rounded-lg px-10 py-3 font-semibold transform transition duration-300 hover:bg-[#00df9a] hover:text-white border-2 border-[#00df9a]"

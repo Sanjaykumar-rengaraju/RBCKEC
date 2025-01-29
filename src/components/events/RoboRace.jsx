@@ -57,7 +57,7 @@ const RoboRace = () => {
               Register
             </a>
             <a
-              href="https://drive.google.com/file/d/1JM50inXqplbKKitamQN-gkBRD_wd6tHP/view?usp=sharing"
+              href="https://drive.google.com/file/d/1b2D6MY08z1CQM0xPS_d26JXY2odocAOv/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-transparent text-[#00df9a] rounded-lg px-10 py-3 font-semibold transform transition duration-300 hover:bg-[#00df9a] hover:text-white border-2 border-[#00df9a]"

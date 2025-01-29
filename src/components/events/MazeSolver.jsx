@@ -77,7 +77,7 @@ const MazeSolver = () => {
               Register
             </a>
             <a
-              href="https://drive.google.com/file/d/1U80WnulkmOGvoFQaZf-pqallrKG3pY6A/view?usp=sharing"
+              href="https://drive.google.com/file/d/1b0iNFl7G5xlH0g7qW0PND8V4jZV2JCu9/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-transparent text-[#00df9a] rounded-lg px-10 py-3 font-semibold transform transition duration-300 hover:bg-[#00df9a] hover:text-white border-2 border-[#00df9a]"

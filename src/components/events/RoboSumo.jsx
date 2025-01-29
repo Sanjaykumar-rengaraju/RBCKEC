@@ -62,7 +62,7 @@ const RoboSumo = () => {
               Register
             </a>
             <a
-              href="https://drive.google.com/file/d/1SCeWtRZQa7wkCLHWTnnUmJL6E4CRY2C2/view?usp=sharing"
+              href="https://drive.google.com/file/d/1ujgEj0ESD6f4dY4GOvbvLGEzMYA-QIGw/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-transparent text-[#00df9a] rounded-lg px-10 py-3 font-semibold transform transition duration-300 hover:bg-[#00df9a] hover:text-white border-2 border-[#00df9a]"

@@ -53,7 +53,7 @@ const Workshop = () => {
               Register
             </a>
             <a
-              href="https://drive.google.com/file/d/1UJhUCJG60dS4u30pBiQmXGEq4TrKbvTm/view?usp=sharing"
+              href="https://drive.google.com/file/d/1Cm7yxmgTofkOP8-Yt_YRV8DZN8nI6Ajj/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-transparent text-[#00df9a] rounded-lg px-10 py-3 font-semibold transform transition duration-300 hover:bg-[#00df9a] hover:text-white border-2 border-[#00df9a]"

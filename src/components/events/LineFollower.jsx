@@ -63,7 +63,7 @@ const LineFollower = () => {
               Register
             </a>
             <a
-              href="https://drive.google.com/file/d/1gB1gPWYvEdk5nbFF9WtEv2UxHgERiCUM/view?usp=sharing"
+              href="https://drive.google.com/file/d/1eh6uCuTZDA6cv3byFjXMbwqwT5liL2EP/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-transparent text-[#00df9a] rounded-lg px-10 py-3 font-semibold transform transition duration-300 hover:bg-[#00df9a] hover:text-white border-2 border-[#00df9a]"
