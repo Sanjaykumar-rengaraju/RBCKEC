@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.dacc1397.css",
-    "main.js": "/static/js/main.49e8feb2.js",
+    "main.js": "/static/js/main.443e0755.js",
     "static/js/81.82a18267.chunk.js": "/static/js/81.82a18267.chunk.js",
     "static/js/917.fe748c3e.chunk.js": "/static/js/917.fe748c3e.chunk.js",
     "static/js/103.b3d44265.chunk.js": "/static/js/103.b3d44265.chunk.js",
@@ -53,7 +53,7 @@
     "static/media/AMARNATH M.jpg": "/static/media/AMARNATH M.f252dc7952e1cbc82a8f.jpg",
     "index.html": "/index.html",
     "main.dacc1397.css.map": "/static/css/main.dacc1397.css.map",
-    "main.49e8feb2.js.map": "/static/js/main.49e8feb2.js.map",
+    "main.443e0755.js.map": "/static/js/main.443e0755.js.map",
     "81.82a18267.chunk.js.map": "/static/js/81.82a18267.chunk.js.map",
     "917.fe748c3e.chunk.js.map": "/static/js/917.fe748c3e.chunk.js.map",
     "103.b3d44265.chunk.js.map": "/static/js/103.b3d44265.chunk.js.map",
@@ -62,6 +62,6 @@
   },
   "entrypoints": [
     "static/css/main.dacc1397.css",
-    "static/js/main.49e8feb2.js"
+    "static/js/main.443e0755.js"
   ]
 }
