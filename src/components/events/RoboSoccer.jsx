@@ -8,73 +8,81 @@ const RoboSoccer = () => {
         <div className="max-w-4xl mx-auto text-justify">
           <h1 className="text-4xl text-[#00df9a] font-semibold mb-6 text-center mt-24">ROBO SOCCER</h1>
           
+          {/* Robot Specifications Section */}
+          <section className="space-y-8 mb-12">
+            <h2 className="text-3xl text-[#00df9a] font-semibold">ROBOT SPECIFICATIONS</h2>
+            <ul className="list-disc space-y-4 text-xl font-light text-gray-300 pl-6">
+              <li>The dimensions of the bot must not exceed (30 cm x 30 cm x 30 cm) at any point of the game.</li>
+              <li>Both wired and wireless robots are allowed.</li>
+              <li>The weight of the wired bot should not exceed 5 kgs and wireless should not exceed 8 kgs.</li>
+              <li>Maximum voltage for batteries both in bot and remote should not exceed 12V.</li>
+              <li>The bot can have 4-wheel drive or 2-wheel drive mechanism; all the tyres must contribute into the motion.</li>
+              <li>The body of the robot must not be taken from any readymade toys.</li>
+              <li>Dribbler mechanisms are allowed.</li>
+              <li>In case of wired control, the participants must ensure that the wire length should be minimum 5 meters.</li>
+              <li>Wires must be routed through a pole at least 45cm high.</li>
+              <li>Wires must remain slack during gameplay.</li>
+              <li>In case of wireless control, must support dual-frequency operation to avoid interference.</li>
+              <li>RF modules from toy cars may be used. However, use of IC engines and LEGO kits will attract disqualification.</li>
+            </ul>
+          </section>
+
           {/* General Rules Section */}
           <section className="space-y-8 mb-12">
             <h2 className="text-3xl text-[#00df9a] font-semibold">GENERAL RULES</h2>
             <ul className="list-disc space-y-4 text-xl font-light text-gray-300 pl-6">
-                <li>	Each team is required to construct a single robot.<br /></li>
-                <li>	The maximum number of participants in a team is 4.<br /></li>
-                <li>	Each member must produce a valid ID card of his/her respective institution.<br /></li>
-                <li>	However, students from different institutions can form a team.<br /></li>
-                <li>	12V RPS (Regulated Power Supply) will be given by our team.<br/></li>
-                <li>    you can bring your battery maximum 12 V (0-5) Amps as if you wish.<br /></li>
-                <li>    Bots battery capacity should be maximum of 24V.</li>
-                <li>	Match contains of two timeout of 20 seconds each.<br /></li>
-                <li>	The games are similar to normal football tournaments.<br /></li>
-                <li>	Depending on the no. of team, Knockouts or league groups will be made. Top 4 teams will be qualified for the Semi-Finals.<br /></li>
-                <li>	Each match lasts for 4 minutes.<br /></li>
-                <li>	Bots should not hold the ball for more than 10 secs, it leads to start the match from home position.<br /></li>
-                <li>	The match time may vary according to the juries.<br /></li>
-                <li>	The decision of the co-ordinators will be final.<br /></li>
+              <li>Robot should be as per the given specifications.</li>
+              <li>Each team can have a maximum of 4 members. Students from different institutes can form a team.</li>
+              <li>Each member of the team must contain the identity card of his/her respected institute.</li>
+              <li>Unethical behaviour could lead to disqualification. Event coordinators have all the rights to take final decision for any matter during the event.</li>
+              <li>The bot will be checked by organizers for compliance before competition. Judges' decision is final.</li>
+              <li>Judge's decision will be considered final.</li>
+              <li>Teams may register online for the event or spot registrations are also available.</li>
             </ul>
           </section>
 
-          {/* ARENA Specifications Section */}
+          {/* Game Rules Section */}
           <section className="space-y-8 mb-12">
-            <h2 className="text-3xl text-[#00df9a] font-semibold">ARENA SPECIFICATIONS</h2>
+            <h2 className="text-3xl text-[#00df9a] font-semibold">GAME RULES</h2>
+            
+            {/* Arena Specifications */}
+            <h3 className="text-2xl text-[#00df9a] font-semibold">Arena Specifications</h3>
             <ul className="list-disc space-y-4 text-xl font-light text-gray-300 pl-6">
-                <li>	The dimensions of the play area are 4m x 2m.<br /></li>
-                <li>	The height of the wall is 15cm.<br /></li>
-                <li>	The goal width is 30cm wide.<br /></li>
-                <li>	A golf ball or tennis ball will be used for the game.<br /></li>
-                <li>	The arena is made of plywood on top for smooth movements.<br /></li>
-                <li>	There will not be any extra metal casting, indicating the goal.<br /></li>
-                <li>	Damaging any part of the arena (because of the respective Bot) will lead to disqualification.<br /></li>
-                <li>	There will be a rectangular boundary in which the arena is placed. Inside the boundary of the arena, only the coordinators and four persons per each team to control bots are allowed when the match is going on.<br /></li>
-                <li>	There will be negative points in case of any violation of the rules mentioned above.<br /></li>
-                <li>	All the spectators are supposed to watch the match outside this boundary, this is to ensure that there is enough space for the team members to control the bots and move around.<br /></li>
-                <li>	Specifications of the arena may change due to club decision.<br /></li>
+              <li>Dimensions: 4m x 2m, walls are 15cm high.</li>
+              <li>Goals: 30cm wide.</li>
+              <li>Surface: Plywood for smooth movement.</li>
+              <li>Ball: Standard home-playing tennis ball (6.7 cm diameter).</li>
+              <li>Damaging any part of the arena will result in disqualification.</li>
+              <li>Only coordinators and 4 team members per team are allowed inside the boundary during matches.</li>
+              <li>Spectators must remain outside the boundary to allow enough space for teams.</li>
+              <li>Arena specifications may change based on the club's decisions.</li>
             </ul>
-          </section>
 
-          {/* SCORING PATTERN Section */}
-          <section className="space-y-8 mb-12">
-            <h2 className="text-3xl text-[#00df9a] font-semibold">SCORING PATTERN</h2>
+            {/* Scoring Pattern */}
+            <h3 className="text-2xl text-[#00df9a] font-semibold">Scoring Pattern</h3>
             <ul className="list-disc space-y-4 text-xl font-light text-gray-300 pl-6">
-                <li>	The scoring is same as the normal football games.<br /></li>
-                <li>	The team which scores a maximum number of goals by the end of full time is considered as the winner of that particular game.<br /></li>
-                <li>	Aggressive attacks against the bot will be awarded a penalty shootout.<br /></li>
-                <li>	Immobilization of 15 secs leads to disqualification of the bot.<br /></li>
-                <li>	Direct goals are accepted.<br /></li>
+              <li>Standard football scoring rules apply.</li>
+              <li>The team scoring the most goals by the end of full time wins.</li>
+              <li>Aggressive attacks against an opponent’s bot will result in a penalty shootout.</li>
+              <li>Immobilization of a bot for 15 seconds will lead to disqualification.</li>
+              <li>Direct goals are valid.</li>
             </ul>
-          </section>
 
-          {/* RObot specification Section */}
-          <section className="space-y-8 mb-12">
-            <h2 className="text-3xl text-[#00df9a] font-semibold">ROBOT SPECIFICATION</h2>
+            {/* Gameplay Rules */}
+            <h3 className="text-2xl text-[#00df9a] font-semibold">Gameplay Rules</h3>
             <ul className="list-disc space-y-4 text-xl font-light text-gray-300 pl-6">
-                <li>	The dimensions of the bot must not exceed (30 cm x 30 cm x 30 cm) at any point of the game and weight of the robot should not exceed 8kgs.<br /></li>
-                <li>	Both wired and wireless robots are allowed<br /></li>
-                <li>	Maximum working voltage of the bot should not exceed 12V.<br /></li>
-                <li>	In case of wired control, the participants must ensure that the wire length should be minimum 5 meters.<br /></li>
-                <li>	In case of wireless robots, each robot must be able to support dual frequency, so that there is no interference with the opponents’ robots.<br /></li>
-                <li>	In case of wired control, the participants must ensure that the wires are out of a pole of height at least 45 cm. The height of the pole is not counted during dimension check. The wire must be slack at any instant of the match.<br /></li>
-                <li>	RF modules from toy cars may be used. However use of IC engines and LEGO kits will leads to disqualification.<br /></li>
-                <li>	No direct use of remote controlled (wired or wireless) cars will be entertained.<br /></li>
-                <li>	The robot may not hold the ball stationary with it while moving (i.e, ball must be moving when the bot is moving with the ball).Dribbler mechanisms can be used.<br /></li>
-                <li>	The ball can be dribbled and hit from any part of the robot.<br /></li>
-                <li>	Each bot may or may not have a mechanism to hit the ball.<br /></li>
-                <li>	Hydraulics should not be used for any mechanisms.<br /></li>
+              <li>A bot must not hold the ball for more than 3 seconds in a stationary position.</li>
+              <li>The ball must remain in motion when the bot is moving.</li>
+              <li>Robots can push or hit the ball, but they cannot grab or withhold it.</li>
+              <li>Match Duration Based on Number of Teams (approx. 10mins).</li>
+              <li>The match duration will vary based on the number of participating teams.</li>
+            </ul>
+
+            {/* Referee and Organizers */}
+            <h3 className="text-2xl text-[#00df9a] font-semibold">Referee and Organizers</h3>
+            <ul className="list-disc space-y-4 text-xl font-light text-gray-300 pl-6">
+              <li>The referee makes all decisions, and participants must abide by them.</li>
+              <li>The event organizers can make changes to the rules, such as clarifying rules or modifying rules due to special circumstances.</li>
             </ul>
           </section>
 
@@ -82,7 +90,7 @@ const RoboSoccer = () => {
           <section className="space-y-8 mb-12">
             <h2 className="text-3xl text-[#00df9a] font-semibold">STUDENT COORDINATORS</h2>
             <ul className="space-y-4 text-xl font-light text-gray-300">
-              <li>HARIKRISHNAN S - 9361285226  </li>
+              <li>HARIKRISHNAN S - 9361285226</li>
               <li>AMARNATH M - 8870601260</li>
             </ul>
           </section>
