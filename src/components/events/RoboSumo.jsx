@@ -31,7 +31,7 @@ const RoboSumo = () => {
             <h2 className="text-3xl text-[#00df9a] font-semibold">BOT SPECIFICATIONS</h2>
             <ul className="list-disc space-y-4 text-xl font-light text-gray-300 pl-6">
                 <li>	Using greater voltages than 12V is forbidden.<br/></li>
-                <li>	Bot dimension should be maximum of 25cm x 25cm x 25cm.<br/></li>
+                <li>	Bot dimension should be maximum of 30cm x 30cm x 30cm.<br/></li>
                 <li>	Bot can have microcontroller or any IC Gates for automatic movement and should not be controlled manually.<br/></li>
                 <li>	Participating teams should bring their own requirements for entire competition.<br/></li>
             </ul>
